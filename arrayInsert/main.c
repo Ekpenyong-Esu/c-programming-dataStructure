@@ -46,5 +46,5 @@ void main()
             exit(0);
         }
     // End of switch case
-    getch();
+    
 } // End of main
