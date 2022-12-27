@@ -7,7 +7,7 @@ void main()
 {
     int arr1[10], arr2[10], arr3[20];
     size_t arr1_size, arr2_size, s;
-    int i = 0, j = 0, k = 0;
+    int i = 0, j = 0, k = 0;         // This is use to keep count of the array
 
     clrscr();
 
