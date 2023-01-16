@@ -1,0 +1,21 @@
+# ninja log v5
+11	341	6955825560274227	CMakeFiles/c_programming_dataStructure.dir/arrayDelete/main.c.obj	60bbd5de28176e85
+23	364	6955825560224231	CMakeFiles/c_programming_dataStructure.dir/arrayDelete/array.c.obj	5cb514a00f3e9d2f
+62	382	6955825560544260	CMakeFiles/c_programming_dataStructure.dir/linklist/linkList.c.obj	a762546f821e30a9
+45	404	6955825560894292	CMakeFiles/c_programming_dataStructure.dir/arrayInsert/main.c.obj	d6cdc166a5963e47
+31	429	6955825560874300	CMakeFiles/c_programming_dataStructure.dir/arrayInsert/arrayInsert.c.obj	115bd7f62eb1d407
+54	450	6955825561154304	CMakeFiles/c_programming_dataStructure.dir/AsimpleMenuTableWithLinklist/MenuTable.c.obj	b18e0d65e49de7d2
+348	649	6955825563364478	CMakeFiles/c_programming_dataStructure.dir/ConcatenatingTwoStruct/concatenatingTwoStruct.c.obj	9ef979b9a271cef1
+429	713	6955825564054548	CMakeFiles/c_programming_dataStructure.dir/LinearSearch/linearSearch.c.obj	367298b6eacfce95
+383	725	6955825564184561	CMakeFiles/c_programming_dataStructure.dir/BinarySearch/BinarySearch.c.obj	986dbd2e13f3215
+405	736	6955825564074539	CMakeFiles/c_programming_dataStructure.dir/insertionSort/insertionSort.c.obj	9ace779a51ce5556
+365	745	6955825564304560	CMakeFiles/c_programming_dataStructure.dir/CombinningTwoSortedArrays/arrayCombine.c.obj	42c79e9973e482bd
+452	756	6955825564414570	CMakeFiles/c_programming_dataStructure.dir/linklist/simplelink2.c.obj	cb68d985232105e
+650	1043	6955825567414816	CMakeFiles/c_programming_dataStructure.dir/patternMartching/patternMatching.c.obj	aff88d8eb3ecb4b0
+714	1129	6955825568194887	CMakeFiles/c_programming_dataStructure.dir/linklist/simpleLinkList.c.obj	b0128227e4de10e8
+737	1139	6955825568214913	CMakeFiles/c_programming_dataStructure.dir/ReverseArray/ReverseArray.c.obj	cefd17f2600baa62
+726	1140	6955825568014892	CMakeFiles/c_programming_dataStructure.dir/Recursion/main.c.obj	66bd2b28a2e4809c
+746	1146	6955825568244891	CMakeFiles/c_programming_dataStructure.dir/Recursion/headRecursion.c.obj	9eaab9e16ec5369e
+756	1148	6955825568304909	CMakeFiles/c_programming_dataStructure.dir/SetAndGetIndex/SetAndGetIndex.c.obj	9807302abc05790e
+1043	1323	6955825570245081	CMakeFiles/c_programming_dataStructure.dir/SortingLinkList/sortingLinkList.c.obj	f8cebf9978dbdc8f
+1130	1414	6955825571155129	CMakeFiles/c_programming_dataStructure.dir/selectionSort/selectionSort.c.obj	a4d71ee758f8f5c6
