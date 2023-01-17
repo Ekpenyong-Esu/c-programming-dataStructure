@@ -22,8 +22,8 @@ int main()
         printf("\n 8: print linklist");
         printf("\n Exit:");
         //printf(" \n : Exit");
-        printf("\n Enter your choice: ");
-        putchar('\n');
+        printf("Enter your choice: ");
+      
 
         scanf("%d", &choice);
 
