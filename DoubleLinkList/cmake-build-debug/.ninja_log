@@ -1,0 +1,9 @@
+# ninja log v5
+17	316	6966830912713054	CMakeFiles/DoubleLinkList.dir/DoubleLinkList.c.obj	702b8922bdb3bf58
+2	352	6966830913183111	CMakeFiles/DoubleLinkList.dir/DoubleLinkListFunction.c.obj	d5dffb93327d09da
+353	642	6966830916013478	DoubleLinkList.exe	50f2c326e7f08d4f
+6	340	6966831847933876	CMakeFiles/DoubleLinkList.dir/DoubleLinkList.c.obj	702b8922bdb3bf58
+341	687	6966831851344178	DoubleLinkList.exe	50f2c326e7f08d4f
+17	186	6966851330995309	CMakeFiles/DoubleLinkList.dir/DoubleLinkListFunction.c.obj	d5dffb93327d09da
+6	278	6966851331945371	CMakeFiles/DoubleLinkList.dir/DoubleLinkList.c.obj	702b8922bdb3bf58
+279	512	6966851334215769	DoubleLinkList.exe	50f2c326e7f08d4f

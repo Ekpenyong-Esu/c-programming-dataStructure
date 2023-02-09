@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CircularHeaderLinkList",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularHeaderLinkList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularHeaderLinkList-Debug-e350c3b63c86b6b04e6c.json",
+					"name" : "CircularHeaderLinkList",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mahon/Desktop/Programming-Exercise/C-DataStructure-Exercise-code/c-programming-dataStructure/CircularHeaderLinkList/cmake-build-debug",
+		"source" : "C:/Users/mahon/Desktop/Programming-Exercise/C-DataStructure-Exercise-code/c-programming-dataStructure/CircularHeaderLinkList"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
