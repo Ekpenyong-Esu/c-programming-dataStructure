@@ -225,13 +225,11 @@ void deleteAtEnd()
 
 void printList()
 {
-    struct node *newNode;
+    
     if (head == NULL)
     {
         printf("List is empty");
-        newNode->next = head;
-        head = newNode;
-       
+        return;
     }
 
     struct node *temp = head;

@@ -56,13 +56,6 @@ build CMakeFiles/SimpleQueueArray.dir/SimpleQueue.c.obj: C_COMPILER__SimpleQueue
   OBJECT_DIR = CMakeFiles\SimpleQueueArray.dir
   OBJECT_FILE_DIR = CMakeFiles\SimpleQueueArray.dir
 
-build CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj: C_COMPILER__SimpleQueueArray_Debug C$:/Users/mahon/Desktop/Programming-Exercise/C-DataStructure-Exercise-code/c-programming-dataStructure/SimpleQueueArray/SimpleQueueFunction.c || cmake_object_order_depends_target_SimpleQueueArray
-  DEP_FILE = CMakeFiles\SimpleQueueArray.dir\SimpleQueueFunction.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/mahon/Desktop/Programming-Exercise/C-DataStructure-Exercise-code/c-programming-dataStructure/SimpleQueueArray/.
-  OBJECT_DIR = CMakeFiles\SimpleQueueArray.dir
-  OBJECT_FILE_DIR = CMakeFiles\SimpleQueueArray.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SimpleQueueArray
@@ -71,7 +64,7 @@ build CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj: C_COMPILER__Sim
 #############################################
 # Link the executable SimpleQueueArray.exe
 
-build SimpleQueueArray.exe: C_EXECUTABLE_LINKER__SimpleQueueArray_Debug CMakeFiles/SimpleQueueArray.dir/SimpleQueue.c.obj CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj
+build SimpleQueueArray.exe: C_EXECUTABLE_LINKER__SimpleQueueArray_Debug CMakeFiles/SimpleQueueArray.dir/SimpleQueue.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SimpleQueueArray.dir

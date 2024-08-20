@@ -1,49 +1,48 @@
-#include "SimpleQueue.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-
-int main()
-{
-    
-    int queue[SIZE], value, choice;
-
-    clrscr();
-    
-    while (1)
-    {
-
-    
-        printf("\n***MENU****\n");
-        printf("\n1. INSERTION IN QUEUE");
-        printf("\n2. DELETION IN QUEUE");
-        printf("\n3. DISPLAY");
-        printf("\n4. EXIT");
-        printf("\nENTER YOUR CHOICE: ");
-        
-        scanf("%d", &choice);
-
-        switch (choice) 
-        {
-            case 1:
-                printf("Enter Value to insert: ");
-                scanf("%d", &value);
-
-                insertion(queue,value);
-                break;
-
-            case 2:
-                deletion(queue, value);
-                break;
-
-            case 3:
-                display(queue);
-                break;
-            
-            case 4:
-                printf("!!Exit!!");
-                exit(0);
-
-            default:
-                printf("Wrong Choice");
+void merge(int arr[], int left[], int leftSize, int right[], int rightSize) {
+    int i = 0, j = 0, k = 0;
+    while (i < leftSize && j < rightSize) {
+        if (left[i] < right[j]) {
+            arr[k++] = left[i++];
+        } else {
+            arr[k++] = right[j++];
         }
     }
+    while (i < leftSize) {
+        arr[k++] = left[i++];
+    }
+    while (j < rightSize) {
+        arr[k++] = right[j++];
+    }
+}
+
+void mergeSort(int arr[], int size) {
+    if (size < 2) {
+        return;
+    }
+    int mid = size / 2;
+    int left[mid];
+    int right[size - mid];
+    for (int i = 0; i < mid; i++) {
+        left[i] = arr[i];
+    }
+    for (int i = mid; i < size; i++) {
+        right[i - mid] = arr[i];
+    }
+    mergeSort(left, mid);
+    mergeSort(right, size - mid);
+    merge(arr, left, mid, right, size - mid);
+}
+
+int main() {
+    int arr[] = {5, 4, 3, 2, 1};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    mergeSort(arr, size);
+    printf("Sorted array: ");
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+    return 0;
 }

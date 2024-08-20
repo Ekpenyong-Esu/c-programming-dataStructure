@@ -3,7 +3,7 @@
 
 void clrscr(void) { printf("\033[1J\033[H"); } // use clearing the screen
 
-void main()
+int main()
 {
     int arr1[10], arr2[10], arr3[20];
     size_t arr1_size, arr2_size, s;
@@ -17,7 +17,7 @@ void main()
     printf("Enter elements of array: \n");
     for (s = 0; s < arr1_size; s++)
     {
-        printf("Enter element %d: ", s + 1);
+        printf("Enter element %llu: ", s + 1);
         scanf("%d", &arr1[s]);
     }
 

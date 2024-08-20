@@ -7,5 +7,4 @@ include_directories(.)
 
 add_executable(SimpleQueueArray
         SimpleQueue.c
-        SimpleQueue.h
-        SimpleQueueFunction.c)
+        )

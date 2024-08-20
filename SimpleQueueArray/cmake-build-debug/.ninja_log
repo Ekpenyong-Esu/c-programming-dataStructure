@@ -1,9 +1,5 @@
 # ninja log v5
-10	319	6976258575428240	build.ninja	c9b92af006868cee
-2	171	6976258577698417	CMakeFiles/SimpleQueueArray.dir/SimpleQueue.c.obj	990ad752aa4735f9
-10	174	6976258577778432	CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj	cfd561d697b27972
-175	438	6976258580378634	SimpleQueueArray.exe	eb1ba34a20bc7c0b
-5	215	6976262344062381	CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj	cfd561d697b27972
-216	451	6976262346352547	SimpleQueueArray.exe	eb1ba34a20bc7c0b
+2	475	7111407320873896	build.ninja	c9b92af006868cee
+8	365	6992107349509752	CMakeFiles/SimpleQueueArray.dir/SimpleQueue.c.obj	990ad752aa4735f9
 5	195	6976270495420976	CMakeFiles/SimpleQueueArray.dir/SimpleQueueFunction.c.obj	cfd561d697b27972
-196	441	6976270497751152	SimpleQueueArray.exe	eb1ba34a20bc7c0b
+368	713	6992107352857321	SimpleQueueArray.exe	21ef7e708e98f297
